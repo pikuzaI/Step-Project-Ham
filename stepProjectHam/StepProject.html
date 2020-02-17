@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StepProject</title>
+
+    <script src="https://kit.fontawesome.com/00f1c39037.js" crossorigin="anonymous"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+<!--HEADER-->
+<div class="header">
+    <div class="header-nav-bar">
+<!--        LOGO-->
+        <div class="logo">
+            <a  class="header-logo"><img src="img/logo-back.png" alt="" class="logo"><p class="logo-H">H</p></a>
+            <a class="logo-text-link"><p class="logo-text">the<span class="color-text-logo color-text">Ham</span></p></a>
+        </div>
+
+<!--        HEADER MENU-->
+        <ul class="header-navbar-menu">
+            <li class="header-navbar-links active">home</li>
+            <li class="header-navbar-links">about</li>
+            <li class="header-navbar-links">skills</li>
+            <li class="header-navbar-links">service</li>
+            <li class="header-navbar-links">work</li>
+            <li class="header-navbar-links">testimonial</li>
+            <li class="header-navbar-links">blog</li>
+            <li class="header-navbar-links">team</li>
+            <li class="header-navbar-links">contact</li>
+            <li class="header-navbar-links"><span><i class="fas fa-search"></i></span></li>
+        </ul>
+    </div>
+
+    <script>
+
+        const tablinks = document.querySelectorAll(".header-navbar-links");
+
+        tablinks.forEach(function (item) {
+            item.addEventListener("click", function () {
+                const link = Array.from(this.parentElement.children);
+                link.forEach(link => link.classList.remove("active"));
+                this.classList.add("active");
+            })
+        })
+    </script>
+
+    <div class="header-info">
+        <h2 class="header-info-subtitle">The Ham is <span class="color-text">Wordpress theme</span></h2>
+        <h1 class="header-info-title">we are creative</h1>
+        <h3 class="header-info-slogan">Just Buy And Enjoy These Awesome Features</h3>
+    </div>
+    <div class="header-buttons">
+        <a  class="header-button p">EXPLORE NOW</a>
+        <a  class="header-button">purchase now</a>
+    </div>
+
+</div>
+
+<!--UNDER HEADER LINE-->
+
+<div class="under-header-line">
+    <div class="under-header-line-info one">
+        <img src="img/header-line-1.png" alt="#" class="under-header-line-logo">
+        <div class="u-line-text"><p class="under-header-line-text color-text">Different theme option</p></div>
+    </div>
+    <div class="under-header-line-info two">
+        <img src="img/header-line-2.png" alt="#" class="under-header-line-logo">
+        <p class="under-header-line-text t-two">fully customizable</p>
+    </div>
+    <div class="under-header-line-info one">
+        <img src="img/header-line-3.png" alt="#" class="under-header-line-logo">
+        <p class="under-header-line-text color-text">unlimited support</p>
+    </div>
+    <div class="under-header-line-info two">
+        <img src="img/header-line-4.png" alt="#" class="under-header-line-logo">
+        <p class="under-header-line-text t-two">responsive all device</p>
+    </div>
+</div>
+
+<!--OUR SERVICES-->
+
+<div class="our-services">
+    <h2 class="block-title">Our Services</h2>
+
+    <hr class="under-titles-line">
+    <hr class="under-titles-line-two">
+
+    <div class="our-service-navbar">
+
+            <button class="our-services-link active">Web Design</button>
+            <button class="our-services-link">Graphic Design</button>
+            <button class="our-services-link">Online Support</button>
+            <button class="our-services-link">App Design</button>
+            <button class="our-services-link">Online Marketing</button>
+            <button class="our-services-link">Seo Service</button>
+
+    </div>
+
+         <div class="center">
+            <div class="service-block-info active">
+                <img src="img/our-services/our-serv-1.png" alt="#" class="services-link-img">
+                <p class="services-link-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+            <div class="service-block-info">
+                <img src="img/our-services/cat1.jpg" alt="#" class="services-link-img">
+                <p class="services-link-text">Сезон 1983 года начал в дубле. За основу провёл только одну игру против минского «Динамо» (ту игру киевляне проводили вторым составом, а Пасичного выпустили на последние 20 минут), которая завершилась ничьей 0:0. Вплоть до осени играл за дубль, забил 5 мячей. Последний гол забил 22 сентября в ворота дубля «Зенита»..</p>
+            </div>
+            <div class="service-block-info">
+                <img src="img/our-services/cat2.jpg" alt="#" class="services-link-img">
+                <p class="services-link-text">В целом, техническая поддержка служит попыткам помочь конкретным пользователям решать возникающие конкретные проблемы с продуктом и его использованием, нежели задачи, связанные с обучением, индивидуальной настройкой или другими услугами поддержки.</p>
+            </div>
+            <div class="service-block-info">
+                <img src="img/our-services/cat3.jpg" alt="#" class="services-link-img">
+                <p class="services-link-text">Американская психиатрическая ассоциация, сокр. АПА (англ. American Psychiatric Association, APA) — наиболее авторитетное[источник не указан 87 дней] профессиональное объединение психиатров из США и других стран мира, всего около 36 тыс. членов. Кандидат в члены АПА должен иметь действующую лицензию на медицинскую практику (за исключением студентов и граждан США), а также предоставить рекомендацию одного действительного члена АПА..</p>
+            </div>
+            <div class="service-block-info">
+                <img src="img/our-services/cat4.jpg" alt="#" class="services-link-img">
+                <p class="services-link-text">Интернет-маркетинг (англ. internet marketing) — практика использования всех аспектов традиционного маркетинга в Интернете, с целью продажи продукта или услуги покупателям и управления взаимоотношениями с ними.</p>
+            </div>
+            <div class="service-block-info">
+                <img src="img/our-services/cat5.jpg" alt="#" class="services-link-img">
+                <p class="services-link-text">«Самый длинный день» — роман Корнелиуса Райэна, написанный в 1959 году. В книге рассказывается история Дня Д, первого дня Нормандской операции. В 1962 году книга была экранизирована. В главных ролях снялись Джон Уэйн, Генри Фонда, Шон Коннери и другие звёзды.</p>
+            </div>
+
+         </div>
+
+    <script>
+        const tablink = document.querySelectorAll(".our-services-link");
+        const tabcontent = document.querySelectorAll(".service-block-info");
+
+        tablink.forEach(function (item) {
+            item.addEventListener("click", function () {
+                const links = Array.from(this.parentElement.children);
+                links.forEach(links => links.classList.remove("active"));
+                this.classList.add("active");
+                const index = links.indexOf(this);
+                const tabs = Array.from(tabcontent);
+                tabs.forEach(tabs => tabs.classList.remove("active"));
+                tabs[index].classList.add("active");
+            })
+        })
+    </script>
+
+</div>
+
+<!--PURCHASE-->
+
+ <div class="purchase">
+  <div class="purchase-container">
+      <h1 class="purchase-title">Everything is ready. just buy and install now</h1>
+      <h3 class="purchase-subtitle">Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many many options for you</h3>
+      <div class="purchase-button">
+      <a  class="header-button">purchase now</a>
+      </div>
+  </div>
+
+ </div>
+
+<!--OUR AMAZING WORK-->
+
+<div class="our-amazing-work">
+
+    <h2 class="block-title">Our Amazing Work</h2>
+    <hr class="under-titles-line">
+    <hr class="under-titles-line-two">
+
+    <div class="amazing-work-navbar">
+       <ul class="amazing-work-list">
+           <li class="amazing-work-tabs active"  data-target="*">All</li>
+           <li class="amazing-work-tabs" data-target=".gdsn">Graphic Design</li>
+           <li class="amazing-work-tabs" data-target=".wdsn">Web Design</li>
+           <li class="amazing-work-tabs" data-target=".lndpgs">Landing Pages</li>
+           <li class="amazing-work-tabs" data-target=".wps">Wordpress</li>
+       </ul>
+    </div>
+
+    <div class="portfolio-item row">
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/world-graphics-day-background_23-2147788754.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/world-graphics-day-background_23-2147788754.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/color-splatter-jigsaw-background_23-2147490684.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/color-splatter-jigsaw-background_23-2147490684.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wps col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-icon/wordpress-logo_318-9519.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-icon/wordpress-logo_318-9519.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/colorful-triangle-patterned-white-background_53876-86389.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/colorful-triangle-patterned-white-background_53876-86389.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/elegant-minimal-black-yellow-business-card-template_1017-22513.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/elegant-minimal-black-yellow-business-card-template_1017-22513.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-photo/digital-laptop-working-global-business-concept_53876-23438.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-photo/digital-laptop-working-global-business-concept_53876-23438.jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-psd/set-digital-devices-screen-mockup_53876-76507.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-psd/set-digital-devices-screen-mockup_53876-76507.jpg" alt="">
+            </a>
+        </div>
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/holi-paint-frame_1284-23963.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/holi-paint-frame_1284-23963.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-psd/laptop-digital-device-screen-mockup_53876-76509.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-psd/laptop-digital-device-screen-mockup_53876-76509.jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/spa-salon-isometric-landing-page_1284-29864.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/spa-salon-isometric-landing-page_1284-29864.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/white-background-with-design-elements_23-2147735626.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/white-background-with-design-elements_23-2147735626.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wps col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/social-media-logo-collection_23-2148077820.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/social-media-logo-collection_23-2148077820.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/travel-landing-page-with-photo_23-2148309672.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/travel-landing-page-with-photo_23-2148309672.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-psd/laptop-mock-up-lateral-view_1310-199.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-psd/laptop-mock-up-lateral-view_1310-199.jpg" alt="">
+            </a>
+        </div>
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/infographic-pack-with-colorful-style_23-2147700151.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/infographic-pack-with-colorful-style_23-2147700151.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/template-geometric-minimal-landing-page_23-2148355749.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/template-geometric-minimal-landing-page_23-2148355749.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/building-graphic-design-creative-process_23-2148101309.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/building-graphic-design-creative-process_23-2148101309.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wps col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-psd/wordpress-business-website-psd-template_55-292934299.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-psd/wordpress-business-website-psd-template_55-292934299.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wps col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-psd/wp-magazine-theme-template_55-292934224.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-psd/wp-magazine-theme-template_55-292934224.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-photo/laptop-wooden-table_53876-20635.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-photo/laptop-wooden-table_53876-20635.jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-photo/business-woman-working-laptop_1388-67.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-photo/business-woman-working-laptop_1388-67.jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-psd/group-people-holding-laptop-mockup-charity_23-2148069565.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-psd/group-people-holding-laptop-mockup-charity_23-2148069565.jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/digital-screens-plants-3d-concepts-landing-page_52683-32650.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/digital-screens-plants-3d-concepts-landing-page_52683-32650.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wps col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/social-media-logo-collection_23-2148084030.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/social-media-logo-collection_23-2148084030.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-psd/template-landing-page-website_24972-779.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-psd/template-landing-page-website_24972-779.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/modern-landing-page-with-isometric-laptop_52683-28935.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/modern-landing-page-with-isometric-laptop_52683-28935.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-photo/happy-woman-having-video-call-using-laptop-office_23-2148056211.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-photo/happy-woman-having-video-call-using-laptop-office_23-2148056211.jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-psd/laptop-mockup-table-with-plants_23-2147955548.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-psd/laptop-mockup-table-with-plants_23-2147955548.jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-photo/blank-colorful-adhesive-notes-against-wooden-wall-with-office-stationeries-laptop_23-2148052717.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-photo/blank-colorful-adhesive-notes-against-wooden-wall-with-office-stationeries-laptop_23-2148052717.jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-psd/woman-using-laptop-smartphone_53876-76350.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-psd/woman-using-laptop-smartphone_53876-76350.jpg" alt="">
+            </a>
+        </div>
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/watercolor-background_1176-218.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/watercolor-background_1176-218.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/outdoor-sport-landing-page_23-2148390353.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/outdoor-sport-landing-page_23-2148390353.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item wdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://image.freepik.com/free-photo/close-up-blonde-woman-sitting-sofa-using-laptop-with-blank-white-screen_23-2148028738.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://image.freepik.com/free-photo/close-up-blonde-woman-sitting-sofa-using-laptop-with-blank-white-screen_23-2148028738.jpg" alt="">
+            </a>
+        </div>
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/modern-geometric-infographic-template_1201-1154.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/modern-geometric-infographic-template_1201-1154.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/hardwork-landing-page-template_23-2148379089.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/hardwork-landing-page-template_23-2148379089.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item gdsn col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/four-badges-different-colors_1308-6108.jpg?size=338&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/four-badges-different-colors_1308-6108.jpg?size=338&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/loyalty-program-isometric-discount-card-banner_107791-312.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/loyalty-program-isometric-discount-card-banner_107791-312.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+        <div class="item lndpgs col-lg-3 col-md-4 col-6 col-sm">
+            <a href="https://img.freepik.com/free-vector/gradient-creative-landing-page_23-2148261159.jpg?size=626&ext=jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                <img class="img-fluid" src="https://img.freepik.com/free-vector/gradient-creative-landing-page_23-2148261159.jpg?size=626&ext=jpg" alt="">
+            </a>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(".amazing-work-navbar li").click(function () {
+            $(this).siblings().removeClass("active");
+            $(this).addClass("active");
+            $(".item").hide("slow");
+            const selector = $(this).data("target");
+            $(`.item${selector}`).show("slow");
+        });
+    </script>
+
+<button id="show-more" class="load-more-btn" data-filter=".item">Load more</button>
+
+    <script>
+        $(".item").hide().slice(0,12).show();
+        $("#show-more").on("click",function(){
+            const selector = $(this).data("filter");
+            $(`${selector}:hidden`).slice(0,12).show();
+            if(!$(`${selector}:hidden`).length){
+                $(this).text("it's all")
+            }
+        })
+
+    </script>
+
+</div>
+
+<!--BREAKING NEWS-->
+
+ <div class="breaking-news">
+
+    <h2 class="block-title">Breaking News</h2>
+    <hr class="under-titles-line">
+    <hr class="under-titles-line-two">
+
+    <div class="container-breaking">
+        <div class="container-elem">
+            <img src="img/breaking%20news/breaking1.png" alt="#" class="breaking-photo">
+            <div class="breaking-date">
+                <p class="breaking-data">12</p>
+                <p class="breaking-data">Feb</p>
+            </div>
+            <p class="breaking-text">Amazing Image Post</p>
+            <p class="breaking-comments">By admin    |    2 comment</p>
+        </div>
+        <div class="container-elem">
+            <img src="img/breaking%20news/breaking2.png" alt="#" class="breaking-photo">
+            <div class="breaking-date">
+                <p class="breaking-data">12</p>
+                <p class="breaking-data">Feb</p>
+            </div>
+            <p class="breaking-text">Amazing Image Post</p>
+            <p class="breaking-comments">By admin    |    2 comment</p>
+        </div>
+        <div class="container-elem">
+            <img src="img/breaking%20news/breaking3.png" alt="#" class="breaking-photo">
+            <div class="breaking-date">
+                <p class="breaking-data">12</p>
+                <p class="breaking-data">Feb</p>
+            </div>
+            <p class="breaking-text">Amazing Image Post</p>
+            <p class="breaking-comments">By admin    |    2 comment</p>
+        </div>
+        <div class="container-elem">
+            <img src="img/breaking%20news/breaking4.png" alt="#" class="breaking-photo">
+            <div class="breaking-date">
+                <p class="breaking-data">12</p>
+                <p class="breaking-data">Feb</p>
+            </div>
+            <p class="breaking-text">Amazing Image Post</p>
+            <p class="breaking-comments">By admin    |    2 comment</p>
+        </div>
+
+        <div class="container-breaking">
+            <div class="container-elem">
+                <img src="img/breaking%20news/breaking5.png" alt="#" class="breaking-photo">
+                <div class="breaking-date">
+                    <p class="breaking-data">12</p>
+                    <p class="breaking-data">Feb</p>
+                </div>
+                <p class="breaking-text">Amazing Image Post</p>
+                <p class="breaking-comments">By admin    |    2 comment</p>
+            </div>
+            <div class="container-elem">
+                <img src="img/breaking%20news/breaking6.png" alt="#" class="breaking-photo">
+                <div class="breaking-date">
+                    <p class="breaking-data">12</p>
+                    <p class="breaking-data">Feb</p>
+                </div>
+                <p class="breaking-text">Amazing Image Post</p>
+                <p class="breaking-comments">By admin    |    2 comment</p>
+            </div>
+            <div class="container-elem">
+                <img src="img/breaking%20news/breaking7.png" alt="#" class="breaking-photo">
+                <div class="breaking-date">
+                    <p class="breaking-data">12</p>
+                    <p class="breaking-data">Feb</p>
+                </div>
+                <p class="breaking-text">Amazing Image Post</p>
+                <p class="breaking-comments">By admin    |    2 comment</p>
+            </div>
+            <div class="container-elem">
+                <img src="img/breaking%20news/breaking8.png" alt="#" class="breaking-photo">
+                <div class="breaking-date">
+                    <p class="breaking-data">12</p>
+                    <p class="breaking-data">Feb</p>
+                </div>
+                <p class="breaking-text">Amazing Image Post</p>
+                <p class="breaking-comments">By admin    |    2 comment</p>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+<div class="feedback">
+
+    <h1 class="feedback-title">What People Say About theHam</h1>
+    <hr class="under-titles-line">
+    <hr class="under-titles-line-two">
+
+    <span class="quotes-right"><i class="fas fa-quote-left"></i></span>
+
+    <div class="sliders-info">
+        <div class="slider-elem active">
+            <p class="feedback-comments">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.
+                Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+
+            <h5 class="feedback-user-name">Hasan Ali</h5>
+            <p class="feedback-user-work">UX Designer</p>
+            <img src="img/feedback-user-photo/hasan-ali.png" alt="" class="feedback-user-photo">
+        </div>
+        <div class="slider-elem ">
+            <p class="feedback-comments">WebStorm підтримує зневадження застосунків у node.js. Також підтримується повний набір функцій редагування застосунків на javascript — як для виконання на сервері, так і в браузері: автодоповнення, навігація по коду, рефакторінг і перевірка на помилки.
+
+                Для node.js підтримується також виведення повідомлень node.js на окрему вкладку в IDE..</p>
+
+            <h5 class="feedback-user-name">Diana</h5>
+            <p class="feedback-user-work">webstorm</p>
+            <img src="img/feedback-user-photo/girl-1-item.png" alt="" class="feedback-user-photo">
+        </div>
+        <div class="slider-elem ">
+            <p class="feedback-comments">«Отель Ламбер» (фр. Hôtel Lambert) — особняк XVII століття у центрі Парижа на острові Сен-Луї. З 1843 — політичний штаб і культурний центр польської емігрантської діаспори у Франції чолі з Адамом Єжи Чарторийським і його братом Костянтином. У переносному сенсі польська революційна еліта XVIII століття, яку очолював Адам Чарторийський (1770—1861). Ставила на меті визволення Польщі з-під московського гніту.</p>
+
+            <h5 class="feedback-user-name">Mikel J</h5>
+            <p class="feedback-user-work">talant</p>
+            <img src="img/feedback-user-photo/man-item.png" alt="" class="feedback-user-photo">
+        </div>
+        <div class="slider-elem ">
+            <p class="feedback-comments">Rosetta — ефективний динамічний транслятор, включений до складу Mac OS X, дозволяючий виконувати додатки, призначені для Power PC на комп'ютерах Apple з процесорами Intel. Rosetta підтримує роботу з інструкціями G3, G4 та AltiVec, але не з G5. Це значить, що додатки, розраховані на G5 повинні бути перекомпільовані для того, щоб їх можливо було використовувати на Intel-комп'ютерах під керуванням Mac OS X.</p>
+
+            <h5 class="feedback-user-name">Rosetta</h5>
+            <p class="feedback-user-work">manager</p>
+            <img src="img/feedback-user-photo/girl-2-item.png" alt="" class="feedback-user-photo">
+        </div>
+    </div>
+    <div class="slider-links-center">
+
+        <p class="slider-link-arrow left"><i class="fas fa-arrow-circle-left"></i></p>
+        <div class="slider-navbar">
+
+            <!--        <p class="slider-link-arrow"><i class="fas fa-arrow-circle-left"></i></p>-->
+            <img src="img/feedback-user-photo/hasan-item.png" alt="" class="slider-link active" >
+            <img src="img/feedback-user-photo/girl-1-item.png" alt="" class="slider-link" >
+            <img src="img/feedback-user-photo/man-item.png" alt="" class="slider-link" >
+            <img src="img/feedback-user-photo/girl-2-item.png" alt="" class="slider-link" >
+            <!--        <p class="slider-link-arrow"><i class="fas fa-arrow-circle-right"></i></p>-->
+
+        </div>
+        <p class="slider-link-arrow right"><i class="fas fa-arrow-circle-right"></i></p>
+    </div>
+
+
+</div>
+
+<script>
+    const slideLink = document.querySelectorAll(".slider-link");
+    const slideContent = document.querySelectorAll(".slider-elem");
+
+
+    slideLink.forEach(function (item) {
+        item.addEventListener("click", function () {
+            const links = Array.from(this.parentElement.children);
+            links.forEach(links => links.classList.remove("active"));
+            this.classList.add("active");
+            const index = links.indexOf(this);
+            const tabs = Array.from(slideContent);
+            tabs.forEach(tabs => tabs.classList.remove("active"));
+            tabs[index].classList.add("active");
+        })
+    });
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
